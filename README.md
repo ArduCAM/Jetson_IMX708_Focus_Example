@@ -3,7 +3,7 @@ This is the example how to use ArduCam IMX708 AF Module on Jetson Orin Nano
 
 # Usage
 * FocuserExample.py Example of manual focus  
-    python FocuserExample.py -i 7  
+    python3 FocuserExample.py -i 10 
 
     help:  
     ![help](res/help.png)  
