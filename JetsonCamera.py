@@ -26,8 +26,8 @@ import sys
 def gstreamer_pipeline(
     capture_width=4608,
     capture_height=2592,
-    display_width=640,
-    display_height=360,
+    display_width=1920,
+    display_height=1080,
     framerate=14,
     flip_method=0,
 ):
