@@ -25,11 +25,11 @@ In the example above, 9-001a indicates the camera is registered on I2C Bus 9. Yo
 
 This repository contains two focus control applications depending on your requirements:
 
-### 1. Basic Focus Tool (FocusExample.py)
+### 1. Basic Focus Tool (FocuserExample.py)
 A lightweight baseline demonstration script for simple step-by-step manual focus adjustment via terminal parameters.
 To run the basic manual focus utility (replace 9 with your detected I2C bus):
 ```bash
-python3 FocusExample.py -i 9
+python3 FocuserExample.py -i 9
 ```
 ### 2. Advanced Focus Tuner (FocusTuner.py) - Recommended
 A high-performance, interactive calibration tool featuring a real-time HUD (Heads-Up Display) overlay and Autofocus function.
