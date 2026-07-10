@@ -17,7 +17,7 @@ sudo dmesg | grep imx708
 
 **Example Log Output:**
 ```
-[    1.824901] imx708 9-001a: Detected IMX708 sensor
+[1.824901] imx708 9-001a: Detected IMX708 sensor
 ```
 In the example above, 9-001a indicates the camera is registered on I2C Bus 9. You would run the focus scripts using **-i 9**.
 
