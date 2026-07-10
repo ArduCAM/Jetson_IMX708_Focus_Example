@@ -179,6 +179,8 @@ def main():
     args = parse_cmdline()
     #open camera
     camera = Camera()
+    cv2.namedWindow("Arducam", cv2.WINDOW_NORMAL)
+    cv2.resizeWindow("Arducam", 1280, 720)
     #open camera preview
     camera.start_preview()
     print(args.i2c_bus)
